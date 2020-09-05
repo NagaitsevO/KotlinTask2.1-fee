@@ -4,10 +4,11 @@ fun main() {
     val minComission = 3500     //35 руб.
 
     val sumOfComission: Double
-    if (fee < minComission/comission)
-    {sumOfComission = 3500.00}
-    else
-    {sumOfComission = fee * 0.075}
+    if (fee < minComission / comission) {
+        sumOfComission = 3500.00
+    } else {
+        sumOfComission = fee * 0.075
+    }
 
     println("Сумма комиссии $sumOfComission")
 }
